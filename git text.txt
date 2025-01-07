@@ -1,0 +1,243 @@
+vs code supports the html, javascript,html,type text
+open source
+fire base
+netify
+git and GitHub
+git-lab
+bit-bucket
+fire base is developed by google
+to deploy the firebase
+authrentication google 
+fire base is multitasker
+fire base is used for real time database
+netifty
+it easy to use
+aws is also known as virtual network
+git is track the code
+git-hub is used the store and manage the code
+git is version controller
+git-hub is cloud storage
+how to use
+install git-bash
+or
+command- prompt
+or vs-code
+ 
+git is divided into two
+local local repo
+git-hub(cloud)
+
+connect to local repo to vs code in git we use command git init
+local repo has been divide into two
+un -tracked files(unstaged) operations are create,delete,update
+tracked files(staged) 
+converting untracked files to tracked files is command
+git add file-name
+or
+git add.
+and
+git commit -m""
+difference between git add. and git commit
+git add . individual file is add
+establish communication between local repo git-hub command 
+git remote add origin http-path
+git push-u origin master/main
+u stands for upstring
+clone is means copy
+
+react native is used to develop mobile application 
+electron js is used to develop desktop application 
+react js is used to develop web application
+
+what is JavaScript?
+A) it used to convert static page to dynamic page
+
+
+VARIABLES IN JS
+ set of block it is used to store the data 
+PRIMITIVE DATA TYPES
+number
+string
+Boolean
+un defined
+null
+delete
+non - primitive data types 
+class 
+array 
+map
+object
+functions
+
+null data type is object
+at end of the day javascript is represent in object 
+ in javascript variables are in dynamic nature(no need data type)
+eg: var a = 10
+
+SCOPES in varaibles
+1) global scope - we can declare outside function we can access inside the function
+2) local -scope /script -scope 
+3)block scope it mite be any variable 
+
+VARIABLES TYPES IN JAVASCRIPT
+let 
+var
+const 
+let is reinsalation and redeclaration is not possible
+var is reinsalation and redeclaration is possible
+1) static websites : remains same to everyone 
+ex: fb login
+2) dynamic websites : changes to everyone(data)
+1) ex: youtube
+criczbuzz
+google maps # time-time # 
+Varaibles :
+1) static typed and dynamic type:
+2) varaibles are used store the data 
+3) case- sensitive 
+4) start with letters ,-,$(dollar)
+5) can start with numbers
+6) reserved words
+7) allow letters ,-(under_score),$ (dollarsign),numbers
+how to declare variables 
+var 
+let 
+const
+1) var keyword 1995-2015
+2) let keyword 2015
+3) var used only
+html code EXAMPLE2 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=1;
+        a=5
+        console.log(a+a);
+        </script>
+    
+</body>
+</html> it is resassiging problem
+resassigning possible in let aslo accepted
+reassigining with const not accepted 
+redeclaring
+redeclaring with let not possible 
+EXAMPLE: 
+let a=1;
+let a=5;
+document.write(a+a);
+const.log(a+a);
+recdeclaring with var is accepted
+recdeclaring with const is not accepted
+BLOCKSCOPE:
+variables declared 
+07/01/2025
+Data Types
+1) dynamic type language 
+two types
+1) primitive data type
+2) non-primitive data types : objects ,arrays
+
+
+1) primitive data types : predefined ; we can store single values
+1) Numbers : integers ,floats
+2) string : stream of characters enclosed in quotes
+-- single ,double, backtick quotes ;
+3) Boolean : true or false
+4) null : empty value or no value 
+5) undefined ---- declared variable with no value
+
+
+2) strings : stream of characters enclosed in quotes
+-- single double quotes works same
+-- single and double quotes works same
+-- back ticks introduced in ES6 version
+-- it provides
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         let a=1 
+         console.log("hi +a+a")
+         document.write('hi+ a+a'  ,"<br>")
+        document.write(`hi+ ${a+a}`)     
+        console.log(`hi + ${a+a}`)
+        </script>
+    </body>
+</html>
+output : hi + a+a
+hi + 2
+
+string concatenation:
+a=sai
+b= kumar 
+age = 30
+let c= 
+output : i am sai kumar ,my age is 30 years old
+   
+
+
+1) python,java,c,c++
+2)data structures
+
+
+# leetcode
+#hackerank
+# code chef
+# written test in mncs
+# technical interview
+# conditional statements: only once #1- 10
+# loops:
+# functions ;
+
+console(35>=35) #
+(35>= 30) or (30<=36) #T or F
+(35>= 30 and (30<=36) # T or f
+(35>=30) and (36<=36) # t or f
+(35>=30) and (39<=36) # t or f
+
+condition:
+conditional statement:
+block of code (conditional block):
+indenation:
+
+condition : an expression that evalutes the result (true or false)
+console.log(5>4)
+conditional statement:
+-- to make the set of instructions execute only when the conditional is true
+block of code (conditional block): set of instructions
+-- when this block of code will execute it will exeute it will execute when the specific condition
+is true
+indentation:{
+      --- block of code 
+}
+
+if :
+elseiF:
+else: #
+
+
+
+
+
+
+
+
+
+
+
+ 
+
