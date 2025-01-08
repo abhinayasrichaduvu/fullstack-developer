@@ -1,0 +1,160 @@
+<!DOCTYPE html> arithemtic operators
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=5
+        let b=2
+        document.write(a*b,"<br>")
+        document.write(a**b)
+
+        </script>
+</body>
+</html>
+output :
+10 
+25
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=5
+        let b=2
+        document.write(a*b,"<br>")
+        document.write(a**b)
+        document .write (a/b,"<br>")
+        document .write(a%b)
+
+        </script>
+</body>
+</html>
+output: 10
+252.1
+1
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=5
+        let b=2
+        document.write(a,"<br>")
+        document.write(b,"<br>")
+        document .write (a/b,"<br>")
+        document .write(a%b)
+
+        </script>
+</body>
+</html>
+output:
+5
+2
+2.5
+1
+logical operators
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=5
+        let b=2
+        document.write(a<b && a>2,"<br>")
+        document .write (a>b && a>12,"<br>")
+        document.write(a>b || a>12,"<br>")
+        document.write(!(a>12),"<br>")
+        a+=40 // a=a+40 a=5+40=45
+        b=5
+        document .write (b,"<br>")
+        document .write(a,"<br>")
+        
+
+        </script>
+</body>
+</html>
+output
+false
+false
+true
+true
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=5
+        let b="5"
+        document.write(a==b,"<br>")
+        document.write(a!=b,"<br>")
+        document .write (a===b,"<br>")
+        document.write(a!==b,"<br>")
+        document.write(!(a>12),"<br>")
+        a+=40 // a=a+40 a=5+40=45
+        b=5
+        document .write (b,"<br>")
+        document .write(a,"<br>")
+        
+
+        </script>
+</body>
+</html>
+output:
+true
+false
+false
+true
+true
+5
+45
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let t=40
+        let r=(t<40)?'Ac-off': 'Ac-on'
+        document.write(r,"<br>")
+        document.write(a!=b,"<br>")
+        document .write (a===b,"<br>")
+        document.write(a!==b,"<br>")
+        document.write(!(a>12),"<br>")
+        a+=40 // a=a+40 a=5+40=45
+        b=5
+        document .write (b,"<br>")
+        document .write(a,"<br>")
+        
+
+        </script>
+</body>
+</html>
+output:
+ac-ons
