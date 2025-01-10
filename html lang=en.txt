@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let number=parseInt(prompt("enter a number:"))
+        if (number %2==0 && number %3==0){
+            document.write("number is divisble by 2 and 3 both")
+        } else{
+            document.write("it is not divisble by 2 and 3 both")
+        }scrollbars
+        </script>
+</body>
+</html>
+output : it is not divisible by 2 and 3
+
+
+Write a program to find the largest number out of three numbers excepted from the user  
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        a = prompt("enter the first value");
+        b = prompt("enter the second value");
+        c = prompt("enter the third value");
+        if (a>b && b>C){
+            largest = a
+        } else if (b>a && b>c){
+            largest = b
+        } else {
+            largest = C
+        }
+output:
+enter the value = 6
+enter the value = 9
+enter the value = 5
+9<6<5
+
+
+3) accept the following from the user and calculate the percentage of classes attended :
+a) Total number of working days
+b) Total number of days for absent 
+after calculating percentage show that , if the percentage is less than 75, then student will not eligible to write exam
+                            
+
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        a = prompt("total no of working days");
+        b = prompt("total of absentees");
+        let c= a-b
+        let d = (c/a)*100
+        if(d > 75) {
+            document.write("eligible to write the exam")
+        }else{
+            document .write("not eligible")
+        }
+
+output:eligible to write the examss
