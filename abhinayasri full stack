@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+function a(aa,bb){
+return aa+bb;
+}
+let n1= parsefloat(prompt("Enter a number1"));
+let n2 = parsefloat(prompt("Enter a number2"));
+let result =a(n1,n2);
+console.log("The sum is :"+result)
+   // console.log(a+b)
+      //  }
+       // add(3,5)
+        //add(7,3)
+           // console.log("hello."+name)
+      //  }
+        //let name=prompt("Enter your name?")
+      // g(name)
+        //function greet() {
+           // console.log("hello abhinaya")
+      //  }
+      //  greet()
+       // console.log("hi vidya ")
+       // greet()
+       // console.log("hello hanmitha")
+       // greet()
+      </script>
+</body>
+</html>
