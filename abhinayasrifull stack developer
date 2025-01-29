@@ -1,0 +1,18 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <h1> id="a" class="a">I am abhi </h1>
+  <h1> class="b"> I am naya</h1>
+  let tt=document.createElement('h2')
+  tt.className="a"
+  <tt class="textcontent"></tt>s
+  t.class
+  console.log(x)
+
+  
+   <script>
