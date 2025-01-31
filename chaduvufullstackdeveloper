@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div id="a">
+    <h1>abhi</h1>
+    <h1>ravi</h1>
+    <h1 r="vidya" ></h1>
+     </div>
+     <div id="b">
+      <h2>hanu</h2>
+      <h2>harshi</h2>
+       </div>
+    <script>
+      let n=document.createElement('h1')
+      n.innerText="abhi"
+
+      let p=document.getElementById('a')
+      let l=document.getElementById('r')
+      p.insertBefore(n,l)
+
+      //// To insert yamini before abhi 
+      let nn=document.createElement('h1')
+      nn.innerText="yamini"
+
+      let pp=document.getElementById('a')
+      let ||= document.getElementById('rr')
+      pp.insertBefore(nn,)
+
+     // let n=document.createElement("h2")
+      //n.textContent="abhi"
+
+     // let p=document.getElementById("a")
+     // let l=document.getElementById("r")
+      //p.insertBefore(n,l)
+      //console.log(p)
+        //</script> 
