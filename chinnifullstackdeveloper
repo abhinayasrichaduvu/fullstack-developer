@@ -1,0 +1,11 @@
+console.log("Total after discount: $" + totalAmount.toFixed(2));
+let age = prompt("Enter the age");
+let citizen = prompt("Enter the citizenship");
+let cTest = prompt("Citizenship result");
+
+if((age >= 18) && (citizen=="Indian"||cTest =="Passed")){
+    document.write("Can eligible for voting");
+}
+else{
+    document.write("Cannot vote");
+}
