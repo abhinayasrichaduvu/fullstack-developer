@@ -1,0 +1,15 @@
+import react from 'react';
+const FruitList=()=>{
+    const fruits=['apple','cherry','orange'];
+    return(
+        <div>
+            <h1>FruitList</h1>
+            <ul>
+                {fruits.map((fruit,index)=>(
+                    <li key={index}>{fruit}</li>
+                ))}
+                </ul>
+        </div>
+    )
+}
+export default FruitList;
