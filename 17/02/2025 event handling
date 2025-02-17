@@ -1,0 +1,41 @@
+function App(){
+  const handleClick=()=>{
+    alert("Button clicked")
+  };
+  return(
+    <button onclick={handleClick}>click Me</button>
+  )
+}
+export default App;
+
+onchange
+import React,{useState}from 'react'
+function App(){
+  const[text,setText]=useState=("")
+  //initally the value of set as empty string
+  const handlechange=(event)=>{
+    setText(event.target.value)
+    //update the text state with the value input filed
+    
+  }
+
+
+}import React,{useState} from 'react';
+function App(){
+  const[isHovered,setIsHovered]=useState(false);
+  const handleMouseEnter=()=>{
+    setIsHovered(true);
+    
+  }
+  const handleMouseLeave=()=>{
+    setHovered
+  };
+  return(
+    <div>
+      <button onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}
+      style={{backgroundColor:"isHovered?'lightblue':'lightGray',color:isHovered?'white':'black'"}}
+      >hover Me</button>
+    </div>
+  )
+}
+
