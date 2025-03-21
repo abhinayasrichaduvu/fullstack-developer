@@ -1,0 +1,38 @@
+mysql> CREATE TABLE students (
+    ->     roll_no INT PRIMARY KEY,
+    ->     name VARCHAR(100) NOT NULL,
+    ->     phone_number VARCHAR(15) NOT NULL UNIQUE,
+    ->     email VARCHAR(100) NOT NULL UNIQUE
+    -> );\
+Query OK, 0 rows affected (0.18 sec)
+
+mysql> INSERT INTO students (roll_no, name, phone_number, email) VALUES
+    -> (1, 'Alice Johnson', '9876543210', 'alice@example.com'),
+    -> (2, 'Bob Smith', '9876543211', 'bob@example.com'),
+    -> (3, 'Charlie Brown', '9876543212', 'charlie@example.com'),
+    -> (4, 'David Williams', '9876543213', 'david@example.com'),
+    -> (5, 'Emma Davis', '9876543214', 'emma@example.com');
+Query OK, 5 rows affected (0.02 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+mysql> select *from 2211cs010100;
+ERROR 1146 (42S02): Table '2211cs010100.2211cs010100' doesn't exist
+mysql> INSERT INTO students (roll_no, name, phone_number, email) VALUES
+    -> (1, 'Alice Johnson', '9876543210', 'alice@example.com'),
+    -> select *from table 2211cs010100;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select *from table 2211cs010100' at line 3
+mysql> select * from student;
+ERROR 1146 (42S02): Table '2211cs010100.student' doesn't exist
+mysql> select * from 2211cs010100;
+ERROR 1146 (42S02): Table '2211cs010100.2211cs010100' doesn't exist
+mysql> SELECT * FROM students;
++---------+----------------+--------------+---------------------+
+| roll_no | name           | phone_number | email               |
++---------+----------------+--------------+---------------------+
+|       1 | Alice Johnson  | 9876543210   | alice@example.com   |
+|       2 | Bob Smith      | 9876543211   | bob@example.com     |
+|       3 | Charlie Brown  | 9876543212   | charlie@example.com |
+|       4 | David Williams | 9876543213   | david@example.com   |
+|       5 | Emma Davis     | 9876543214   | emma@example.com    |
++---------+----------------+--------------+---------------------+
+5 rows in set (0.01 sec)
